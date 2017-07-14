@@ -2,7 +2,7 @@ build/*
 .gradle/*
 gradle/wrapper/
 node_modules/*
-src/main/resources/web/include/ts-explorer/css/*
-src/main/resources/web/include/ts-explorer/fonts/*
-src/main/resources/web/include/ts-explorer/js/*
-src/main/resources/web/include/ts-explorer/typeSystem.js
+src/main/resources/web/include/xlr-ts-explorer/css/*
+src/main/resources/web/include/xlr-ts-explorer/fonts/*
+src/main/resources/web/include/xlr-ts-explorer/js/*
+src/main/resources/web/include/xlr-ts-explorer/typeSystem.js

@@ -43,11 +43,8 @@ task createBuildDir << {
     }
 }
 
-
 clean.dependsOn npm_run_clean
-npm_run_build.mustRunAfter clean
-npm_run_build.dependsOn npm_install
-build.dependsOn npm_run_build
+processResources.dependsOn npm_run_build
 tasks['release'].mustRunAfter build
 
 node {

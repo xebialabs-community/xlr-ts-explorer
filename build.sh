@@ -1,8 +1,10 @@
 #!/bin/sh
 
+read
+
 TSEXP=./node_modules/ts-explorer
 BOOTSTRAP=./node_modules/bootstrap/dist
-WEBSRC=./src/main/resources/web/include/ts-explorer
+WEBSRC=./src/main/resources/web/include/xlr-ts-explorer
 
 mkdir -v -p $WEBSRC/css
 mkdir -v -p $WEBSRC/js

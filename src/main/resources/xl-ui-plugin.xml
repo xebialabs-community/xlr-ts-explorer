@@ -4,7 +4,7 @@
 
     <menu-ref ref="xlrelease.menu.Main">
         <menu-item label="TS" weight="60"
-              uri="include/ts-explorer/index.html">
+              uri="include/xlr-ts-explorer/index.html">
         </menu-item>
     </menu-ref>
 </plugin>

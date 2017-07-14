@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WEBSRC=./src/main/resources/web/include/ts-explorer
+WEBSRC=./src/main/resources/web/include/xlr-ts-explorer
 
 rm -v -fr $WEBSRC/css
 rm -v -fr $WEBSRC/js
