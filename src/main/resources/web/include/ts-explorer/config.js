@@ -1,0 +1,1 @@
+var tsUrl = '/metadata/type';
