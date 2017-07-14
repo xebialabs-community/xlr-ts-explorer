@@ -1,2 +1,4 @@
-var tsId = 'xlr-ts-explorer';
-var tsUrl = '/metadata/type';
+var config = {
+    id: 'xlr-ts-explorer',
+    url: '/metadata/type'
+};

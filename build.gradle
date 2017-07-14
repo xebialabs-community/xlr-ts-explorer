@@ -43,9 +43,15 @@ task createBuildDir << {
     }
 }
 
+task gulpCopy(type: GulpTask) {
+  args = ["copy"]
+}
+gulpCopy.dependsOn(installGulp)
+
 clean.dependsOn npm_run_clean
-processResources.dependsOn npm_run_build
+processResources.dependsOn(gulpCopy)
 tasks['release'].mustRunAfter build
+
 
 node {
     version = '7.10.0'

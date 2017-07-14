@@ -12,6 +12,10 @@
   "author": "Ilya Cassina",
   "license": "ISC",
   "dependencies": {
-      "ts-explorer": "^0.0.5"
+      "ts-explorer": "^0.0.9"
+  },
+  "dependenciesDev": {
+    "gulp": "3.9.1",
+    "gulp-copy": "1.0.0"
   }
 }
