@@ -1,0 +1,10 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.xebialabs.com/deployit/ui-plugin"
+        xsi:schemaLocation="http://www.xebialabs.com/deployit/ui-plugin xl-ui-plugin.xsd">
+
+    <menu-ref ref="xlrelease.menu.Main">
+        <menu-item label="TS" weight="60"
+              uri="include/ts-explorer/index.html">
+        </menu-item>
+    </menu-ref>
+</plugin>

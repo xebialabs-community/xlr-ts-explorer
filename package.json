@@ -1,0 +1,20 @@
+{
+  "name": "xlr-ts-explorer",
+  "private": false,
+  "version": "0.0.1",
+  "description": "XLR Type System explorer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w",
+    "clean": "rm -rf build/"
+  },
+  "keywords": ["Type System", "Explorer", "XL Release"],
+  "author": "Ilya Cassina",
+  "license": "ISC",
+  "dependencies": {
+    "ts-explorer": "0.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
